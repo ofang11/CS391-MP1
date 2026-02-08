@@ -89,6 +89,25 @@ main {
     margin: 5% 0;
 }
 
+#ref {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: calc(14px + 0.6vw);
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#ref th,
+#ref td {
+    padding: 1.5vh 1vw;
+    border-bottom: 0.2vh solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#ref th {
+    background-color: rgb(28, 28, 102);
+    color: rgb(216, 220, 247);
+}
+
 ul {
     list-style: square;
     padding-left: 24px;
